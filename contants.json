@@ -1,0 +1,94 @@
+{
+    "buyer_type_list": [{
+            "code": 1,
+            "name": "Individual"
+        },
+        {
+            "code": 2,
+            "name": "Reseller"
+        }
+    ],
+    "pay_type_list": [{
+            "code": 1,
+            "name": "On Cash"
+        },
+        {
+            "code": 2,
+            "name": "On Installment"
+        }
+    ],
+    "mem_act_sts": {
+        "active": 1,
+        "suspended": 0
+    },
+    "user_types": {
+        "member": 0,
+        "moderator": 1,
+        "admin": 2
+    },
+    "commission_status": {
+        "un_paid": 0,
+        "paid": 1,
+        "canceled": 2
+    },
+    "receipts_types": {
+        "paid_user": 0,
+        "paid_commission": 1
+    },
+    "notification": {
+        "from_type": "0=member|1=comapny",
+        "to_type": "0=member|1=comapny",
+        "notify_type": "0=simple|1=new_member|2=withdrawal_request|3=claim_reward_request",
+        "seen": "0=unseen|1=seen"
+    },
+    "claim_rewards": {
+        "__comment": "Self change to Campaign",
+        "type": {
+            "0": "Auto Rewards",
+            "1": "Campaign Rewards"
+        },
+        "reward_selected": {
+            "0": "Level Reward",
+            "1": "Cash"
+        },
+        "status": {
+            "0": "Pending",
+            "1": "Approved",
+            "2": "Cancelled"
+        }
+    },
+    "transactions_comp": {
+        "0": "normal finance entry",
+        "1": "expenses finance entry",
+        "2": "voucher finance entry"
+    },
+    "tokens": {
+        "type": {
+            "0": "verify token generated",
+            "1": "Forgot password",
+            "2": "add|update pincode genereate token",
+            "3": "profile data change token",
+            "4": "password change token",
+            "5": "member bank detail change token"
+        },
+        "status": {
+            "0": "token is not verify",
+            "1": "token is verified"
+        }
+    },
+    "crc_list": {
+        "type": {
+            "0": "Country",
+            "1": "Region -> Sales Coordinator",
+            "2": "Zone",
+            "3": "Branch",
+            "4": "Zones -> Others"
+        }
+    },
+    "mem_link_crc": {
+        "linked_type": {
+            "0": "old user linked in crct",
+            "1": "New user linked in crct"
+        }
+    }
+}
