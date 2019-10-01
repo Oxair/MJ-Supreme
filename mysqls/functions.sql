@@ -1,4 +1,4 @@
-<details>
+
 drop function if exists get_crzb_mem_sale;
 -- delimiter $$
 -- create function get_crzb_mem_sale(id int)
@@ -554,5 +554,3 @@ begin
 end$$
 delimiter ;
 
-
-</details>
